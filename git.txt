@@ -1,0 +1,5 @@
+git init
+git push
+git add -A
+git commit -m ""
+clip < ~/.ssh/id_rsa.pub
