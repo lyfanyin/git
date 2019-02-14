@@ -1,5 +1,9 @@
-git init
-git push
-git add -A
-git commit -m ""
-clip < ~/.ssh/id_rsa.pub
+git init	创建本地仓库
+git log		获取版本号
+git reset --hard x	文件回到x版本
+git push	上传到github仓库
+git add -A	加到暂存区
+git commit -m ""	上传到本地仓库
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"		创建ssh钥匙
+clip < ~/.ssh/id_rsa.pub	ssh钥匙
+git status		查看文件改动
